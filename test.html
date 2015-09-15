@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="test.js"></script>
+<body>
+<div class="container-fluid">
+  <center>
+  <div class="container-fluid">
+    <div class="row" style="background-color: #FFFFCC; border-bottom: 1px solid #FFFF99;">
+      <h2>Luke's Questionably Useful Linker Thingy</h2>
+	</div>
+	<div class="row" style="margin-top: 10px;">
+	  <div class="col-xs-2"></div>
+	  <div class="col-xs-3">
+        <input type="text" id="textFieldOne" name="fieldOne">
+	  </div>
+	  <div class="col-xs-2">
+		<button onclick="myFunctionOne()" class="btn btn-primary">Add to List One</button>
+      </div>
+      <div class="col-xs-2">
+        <select id="myListOne"></select>
+      </div>
+      <div class="col-xs-3"></div>
+    </div>
+	
+	<div class="row" style="margin-top: 10px;">
+	  <div class="col-xs-2"></div>
+	  <div class="col-xs-3">
+        <input type="text" id="textFieldTwo" name="fieldTwo">
+	  </div>
+	  <div class="col-xs-2">
+		<button onclick="myFunctionTwo()" class="btn btn-primary">Add to List Two</button>
+      </div>
+      <div class="col-xs-2">
+        <select id="myListTwo"></select>
+      </div>
+      <div class="col-xs-3"></div>
+    </div>
+
+    <div class="row" style="margin-top: 10px;">
+	  <div class="col-xs-5" style="border: 1px solid;"><p style="text-align: left; font-size: 0.88em;">add text to lists then when finished click "Create Objects." To be deprecated in later versions.</p>
+	  </div>
+	  <div class="col-xs-2">
+	    <button onclick="createObjects()" class="btn btn-info">CreateObjects</button>
+	  </div>
+	  <div class="col-xs-5"></div>
+	</div>
+	<div class="row" style="margin-top: 10px;">
+	  <div class="col-xs-4"></div>
+	  <div class="col-xs-4">
+	    <button onclick="makeAssociation()" class="btn btn-primary">Make Association</button>
+	  </div>
+	  <div class="col-xs-4"></div>
+	</div>
+	<div class="row" style="margin-top: 10px;">
+	  <div class="col-xs-4"></div>
+	  <div class="col-xs-4">
+	    <button onclick="drawCanvas()" class="btn btn-warning">Draw Canvas</button> 
+	  </div>
+	  <div class="col-xs-4"></div>
+	</div>
+
+    <div class="row" style="margin-top: 10px;">
+	  <div class="col-xs-9">
+        <canvas id="myCanvas" width="800" height="600" style="border:1px solid #000000;"></canvas>
+	  </div>
+	  <div class="col-xs-3">
+	    <textarea id="textarea1" rows="50" cols="30">
+		</textarea>
+	  </div>
+    </div>
+    <button onclick="showArray()">Show Array</button> 
+    </center>
+  </div><!-- end container-fluid div -->
+</body>
+
+</html>
